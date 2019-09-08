@@ -10,6 +10,11 @@ namespace CodilityExercises
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Starting execution");
+
+            Console.WriteLine(Lessons.BinaryGap.Solution.solution(647));
+
+            Console.ReadKey();
         }
     }
 }
