@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Lessons\BinaryGap\Solution.cs" />
+    <Compile Include="Lessons\1 - Iterations\BinaryGap\Solution.cs" />
+    <Compile Include="Lessons\2 - Arrays\CyclicRotation\Solution.cs" />
+    <Compile Include="Lessons\2 - Arrays\OddOccurrencesInArray\Solution.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

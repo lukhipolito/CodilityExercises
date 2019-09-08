@@ -12,7 +12,15 @@ namespace CodilityExercises
         {
             Console.WriteLine("Starting execution");
 
-            Console.WriteLine(Lessons.BinaryGap.Solution.solution(647));
+            Console.WriteLine(Lessons.OddOccurrencesInArray.Solution.solution( new int[] {
+              9,
+              1,
+              9,
+              1,
+              9,
+              3,
+              9
+            }));
 
             Console.ReadKey();
         }
