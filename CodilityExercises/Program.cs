@@ -12,9 +12,9 @@ namespace CodilityExercises
         {
             Console.WriteLine("Starting execution");
 
-            Lessons.CyclicRotation.Solution.solution(new int[] { 
-            1,2,3,4,5,6
-            }, 2).ToList().ForEach(x => Console.WriteLine(x));
+            Console.WriteLine(Lessons.Sample_test.Solution.solution(new int[] {
+            1, 3, 6, 4, 1, 2
+            }));
 
             Console.ReadKey();
         }

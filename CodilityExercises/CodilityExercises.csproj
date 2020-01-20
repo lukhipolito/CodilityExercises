@@ -46,6 +46,15 @@
     <Compile Include="Lessons\1 - Iterations\BinaryGap\Solution.cs" />
     <Compile Include="Lessons\2 - Arrays\CyclicRotation\Solution.cs" />
     <Compile Include="Lessons\2 - Arrays\OddOccurrencesInArray\Solution.cs" />
+    <Compile Include="Lessons\Exam\1\Solution.cs" />
+    <Compile Include="Lessons\Exam\2\Solution.cs" />
+    <Compile Include="Lessons\Exam\3\Solution.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Lessons\Exam\3\Solution.Designer.cs">
+      <DependentUpon>Solution.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lessons\Sample test\Solution.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
