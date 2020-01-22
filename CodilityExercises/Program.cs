@@ -1,19 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CodilityExercises
 {
-    class Program
+    internal static class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Starting execution");
 
-            Console.WriteLine(Lessons.Sample_test.Solution.solution(new int[] {
-            1, 3, 6, 4, 1, 2
+            Console.WriteLine(Lessons.OddOccurrencesInArray.Solution.solution(new int[] {
+                5, 6, 1, 7, 4, 5, 2, 8, 6, 8, 10, 4, 2, 3
             }));
 
             Console.ReadKey();
